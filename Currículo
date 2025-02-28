@@ -6,7 +6,37 @@
     <title>Currículo</title>
   </head>
   <body>
+    <center>
+    <img src="C:\Users\202310210023\Pictures\Projeto currículo\imagens\eu.jpeg" alt="Minha foto" width="150">
     <h1>Ana Vitória Alves</h1>
+    </center>
+     
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <td><img  width="70"  height="30"  src="C:\Users\202310210023\Pictures\Projeto currículo\imagens\icone.webp"/></td>
+    <a
+      href="paginateste.html"
+      title="Projetos Ana">
+      Projetos</a>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <td><img  width="70"  height="30"  src="C:\Users\202310210023\Pictures\Projeto currículo\imagens\icone.webp"/></td>
+    <a
+      href="Vendadeimóveis.html"
+      title="Projetos Ana">
+      Outros</a>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+    <td><img  width="70"  height="30"  src="C:\Users\202310210023\Pictures\Projeto currículo\imagens\icone.webp"/></td>
+    <a
+      href="Documentos.html"
+      title="Projetos Ana">
+      Documentos</a>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+    <td><img  width="70"  height="30"  src="C:\Users\202310210023\Pictures\Projeto currículo\imagens\icone.webp"/></td>
+    <a
+      href="Formulário.html"
+      title="Projetos Ana">
+      Formulátio</a>.
+  
+    
     <section>
     <h2>Contato:</h2>
         <strong>E-mail:</strong> ana.carvalho21@estudante.ifto.edu.br<br>
@@ -37,6 +67,48 @@
     <dd>Criação de um blog estático utilizando HTML e CSS.</dd>
 </dl>
 
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiência Profissional</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        table, th, td {
+            border: 2px solid #000;
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 
+</head>
+<body>
+    <h2>Experiência Profissional</h2>
+    <table>
+        <tr>
+            <th>Empresa</th>
+            <th>Cargo</th>
+            <th>Tempo de experiência</th>
+        </tr>
+        <tr>
+            <td>estagio 1</td>
+            <td>coordenador</td>
+            <td>2023</td>
+        </tr>
+        <tr>
+            <td>estagio 2</td>
+            <td>orientador</td>
+            <td>2023</td>
+        </tr>
+        
+    </table>
+    <hr>
+    <label for="mensagem">Comentário:</label><br>
+    <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+    <hr>
+    <button type="submit">Botão Ativo</button>
   </body>
-</html>
